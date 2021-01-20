@@ -1,0 +1,22 @@
+{
+  "name": "productos",
+  "version": "1.0.0",
+  "description": "Sistema de gestion de productos",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaManriquez/productos.git"
+  },
+  "author": "Maria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MariaManriquez/productos/issues"
+  },
+  "homepage": "https://github.com/MariaManriquez/productos#readme",
+  "dependencies": {
+    "mustache": "^4.1.0"
+  }
+}
