@@ -13,7 +13,7 @@ class ProductsManagement{
         this.listproducts.push(product);
     }
     removeProducts(product){
-        for(var i = 0; i < this.listproducts.length< i++){
+        for(var i = 0; i < this.listproducts.length; i++){
             if(this.listproducts[i] == product){
                 this.listproducts.splice(i, 1);
                 return;
@@ -29,4 +29,8 @@ class ProductsManagement{
             }
         }
     }
+    showProducts(){
+        return this.listproducts;
+    }
 }
+export {Products, ProductsManagement}
